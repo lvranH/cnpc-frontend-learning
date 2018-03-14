@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body>
+        <form action="/new-friend"method="post">
+            <table>
+                <tr>
+                    <td> 姓名:</td>
+                    <td><input type="text"name="yourname"></td>
+                </tr>
+                <tr>
+                    <td> 性别:</td>
+                    <td>
+                        <select name="sex" id="">
+                            <option value="1">男</option>
+                            <option value="2">女</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>介绍:</td>
+                    <td> <textarea name="introduce" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"align="center"><input type="submit"></td>
+                </tr> 
+            </table>
+        </form>
+    </body>
+</html>
